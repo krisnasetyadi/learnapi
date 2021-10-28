@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> </title>
+    <link rel="stylesheet" href="chapter.css">
+</head>
+<body>
+<div class="topbar">
+    <h2 id="back"><strong><a href="#"> < </a></strong></h2>
+    <h1 id="head">ROCK PAPER SCISSORS</h1>
+</div>
+<div class="player">
+    <h3 id="playerWord">PLAYER</h3>
+<ul>
+    <li><img src="../asset/batu.png" alt="" id="rockPlayer" style="width: 128px; height: 100px;" onclick="playerWin()"></li>
+    <li><img src="../asset/kertas.png" alt="" id="paperPlayer" style="width: 115px; height: 150px;"></li>
+    <li><img src="../asset/gunting.png" alt="" id="scissorPlayer" style="width: 134px; height: 160px;"></li>
+</ul>
+</div>
+
+<div class="comp">
+    <h3 id="computerWord">COMPUTER</h3>
+<ul>
+    <li><img src="../asset/batu.png" alt="" id="rockComp" style="width: 128px; height: 100px;"></li>
+    <li><img src="../asset/kertas.png" alt="" id="paperComp" style="width: 115px; height: 150px;"></li>
+    <li><img src="../asset/gunting.png" alt="" id="scissorComp" style="width: 134px; height: 160px;"></li>
+</ul>
+</div>
+
+<div class="result">
+    <p hidden id="one" style="size: 200px; color: aliceblue; text-align: center;">PLayer Wins</p>
+    <p hidden id="two" style="size: 200px; color: aliceblue; text-align: center;">computer Wins</p>
+    <p hidden id="three" style="size: 200px; color: aliceblue; text-align: center;">Draw</p>
+  
+</div>
+<div id="reset" >
+    <img id="replay" src="../asset/refresh.png" alt="" style="width: 100px; height: 100px;">
+</div>
+
+    <script src="../public/suit.js"></script>
+</body>
+</html>

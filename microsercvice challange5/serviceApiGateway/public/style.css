@@ -1,0 +1,393 @@
+@media only screen and (min-width: 484px) {
+    body {
+      background-color: #000;;
+    }
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#satu {
+    background-image: url(../assets/main-bg.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.navbar {
+    position: relative;
+	top: 0;
+	left:0;
+	right: 0;
+    width: 100vw;
+	background-color:#000;
+	height: 80px;
+    opacity: 0.75;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+}
+a {
+    text-decoration: none;
+    color: lavender;
+    padding: 5px;
+}
+a:hover{
+    background-color:slategray;
+    padding: 5px;
+}
+
+.bar ul {
+    display: inline-block;
+}
+.up-in {
+    padding-right: 100px;
+}
+
+h1 {
+    color: #ffff;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+h3 {
+    color: #ffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+.btn {
+    position: relative;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 43%;
+}
+h4 {
+    position: absolute;
+    font-size: 20px;
+    right: 710px;
+    bottom: 10px;
+    font-weight: normal;
+    color: #ffff;
+}
+.triangle-down {
+    border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #fff;
+}
+/* triangle belum jadi */
+
+
+/* ------------B   A   T   A   S------------------------ */
+
+#dua {
+    margin-top: 15px;
+    position: relative;
+    height: 100vh;
+    background-image: url(../assets/the-games-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.image {
+    position: absolute;
+    background-image: url(../assets/rockpapers.jpg);
+    height: 400px;
+    width: 500px;
+    top: 190px;
+    right: 230px;
+    padding-right: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+
+}
+.write {
+    padding-top: 100px;
+    margin-left: 50px;
+}
+#w {
+    color: #ffff;
+    font-size: 15px;
+    font-weight: normal;
+}
+#t {
+    font-size: 50px;
+    font-weight: normal;
+    color: #ffff;
+}
+
+
+/* ----------------B A T A S----------------------- */
+#tiga {
+    margin-top: 15px;
+    position: relative;
+    height: 100vh;
+    background-image: url(../assets/features.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#a {
+    position: absolute;
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffff;
+    right: 390px;
+    top: 75px;
+}
+#feature { 
+    position: absolute;
+    font-size: 50px;
+    font-weight: normal;
+    color: #ffff;
+    right: 375px;
+    top: 70px;
+
+}
+#tg {
+    position: absolute;
+    color: #ffb548;
+    font-size: 20px;
+    font-weight: normal;
+    right: 410px;
+    top: 270px;
+}
+#kal {
+    position: absolute;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: normal;
+    right: 355px;
+    top: 320px;
+}
+#gs {
+    position: absolute;
+    color: #ffb548;
+    font-size: 20px;
+    font-weight: normal;
+    right: 500px;
+    bottom: 200px;
+}
+#tb {
+    position: absolute;
+    color: #ffb548;
+    font-size: 20px;
+    font-weight: normal;
+    right: 560px;
+    bottom: 100px;
+}
+/* ---------------------------------------- */
+#empat {
+    margin-top: 15px;
+    position: relative;
+    height: 100vh;
+    background-image: url(../assets/requirements.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sr {
+    position: absolute;
+    color: #ffff;
+    font-size: 65px;
+    font-weight: normal;
+    left: 115px;
+    top: 50px;
+}
+#can {
+    color: #ffff;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 130px;
+}
+table {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    color: #ffff;
+}
+#tu {
+    color: #ffb548;
+    font-size: 18px ;
+    font-weight: normal;
+}
+#wa {
+    color: #ffb548;
+    font-size: 18px ;
+    font-weight: normal;
+}
+#ga{
+    color: #ffb548;
+    font-size: 18px ;
+    font-weight: normal;
+}
+#pat{
+    color: #ffb548;
+    font-size: 18px ;
+    font-weight: normal;
+}
+#ma{
+    color: #ffb548;
+    font-size: 18px ;
+    font-weight: normal;
+}
+/* ----------------------------------------- */
+#lima {
+    margin-top: 15px;
+    position: relative;
+    height: 100vh;
+    background-image: url(../assets/the-games-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#ts {
+    position: absolute;
+    color: #ffff;
+    font-size: 50px;
+    font-weight: normal;
+    bottom: 300px;
+    left: 70px;
+
+}
+#klmt {
+    color: #ffff;
+    position: absolute;
+    font-weight: normal;
+    font-size: 12px;
+    bottom:290px ;
+    left: 75px;
+}
+.btn2 {
+    position: absolute;
+    left: 70px;
+    bottom: 270px;
+    border-radius: 5px;
+}
+.card-satu {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: #1b1c1d;
+    right: 200px;
+    top: 100px;
+    border-radius: 10px;
+}
+#ev {
+    position: absolute;
+    font-size: 15px;
+    right: 150px;
+}
+#an {
+    position: absolute;
+    right: 170px;
+    top: 20px;
+
+}
+#evan {
+    position: absolute;
+    right: 100px;
+    top: 70px;
+    color: #ffff;
+    font-size: 10px;
+    font-weight: normal;
+}
+#tgl-satu {
+    position: absolute;
+    color :#8d8d8e;
+    font-size: 9px;
+    font-weight: normal;
+    bottom: 20px;
+    left: 10px;
+}
+.card-dua {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: #1b1c1d;
+    right: 400px;
+    top: 280px;
+    border-radius: 10px;
+}
+#ja {
+    position: absolute;
+    font-size: 15px;
+    right: 150px;
+}
+#da {
+    position: absolute;
+    right: 175px;
+    top: 20px;
+
+}
+#jada {
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    color: #ffff;
+    font-size: 10px;
+    font-weight: normal;
+}
+#tgl-dua {
+    position: absolute;
+    color :#8d8d8e;
+    font-size: 9px;
+    font-weight: normal;
+    bottom: 20px;
+    left: 10px;
+}
+.card-tiga {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: #1b1c1d;
+    right: 300px;
+    bottom: 100px;
+    border-radius: 10px;
+}
+
+
+#aa {
+    position: absolute;
+    font-size: 15px;
+    left: 92px;
+}
+#ron {
+    position: absolute;
+    right: 170px;
+    top: 20px;
+
+}
+#aaron {
+    position: absolute;
+    left: 5px;
+    top: 70px;
+    color: #ffff;
+    font-size: 10px;
+    font-weight: normal;
+}
+#tgl-tiga {
+    position: absolute;
+    color :#8d8d8e;
+    font-size: 9px;
+    font-weight: normal;
+    bottom: 20px;
+    left: 10px;
+}
+/* -------------------------------- */
+}
+/* kurung punya media querry */
